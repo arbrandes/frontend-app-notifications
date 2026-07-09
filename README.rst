@@ -4,17 +4,17 @@ frontend-app-notifications
 |license-badge| |status-badge| |ci-badge| |codecov-badge|
 
 .. |license-badge| image:: https://img.shields.io/badge/license-AGPL-informational
-    :target: https://github.com/openedx/frontend-plugin-notifications/blob/main/LICENSE
+    :target: https://github.com/openedx/frontend-app-notifications/blob/main/LICENSE
     :alt: License
 
 .. |status-badge| image:: https://img.shields.io/badge/Status-Maintained-brightgreen
 
-.. |ci-badge| image:: https://github.com/openedx/frontend-plugin-notifications/actions/workflows/ci.yml/badge.svg
-    :target: https://github.com/openedx/frontend-plugin-notifications/actions/workflows/ci.yml
+.. |ci-badge| image:: https://github.com/openedx/frontend-app-notifications/actions/workflows/ci.yml/badge.svg
+    :target: https://github.com/openedx/frontend-app-notifications/actions/workflows/ci.yml
     :alt: Continuous Integration
 
-.. |codecov-badge| image:: https://codecov.io/github/openedx/frontend-plugin-notifications/coverage.svg?branch=main
-    :target: https://codecov.io/github/openedx/frontend-plugin-notifications?branch=main
+.. |codecov-badge| image:: https://codecov.io/github/openedx/frontend-app-notifications/coverage.svg?branch=main
+    :target: https://codecov.io/github/openedx/frontend-app-notifications?branch=main
     :alt: Codecov
 
 Purpose

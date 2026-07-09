@@ -4,7 +4,7 @@
   "description": "Open edX frontend app for notifications",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/frontend-plugin-notifications.git"
+    "url": "git+https://github.com/openedx/frontend-app-notifications.git"
   },
   "exports": {
     ".": "./dist/index.js"
@@ -48,12 +48,12 @@
   },
   "author": "Open edX",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/openedx/frontend-plugin-notifications#readme",
+  "homepage": "https://github.com/openedx/frontend-app-notifications#readme",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/openedx/frontend-plugin-notifications/issues"
+    "url": "https://github.com/openedx/frontend-app-notifications/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -82,7 +82,7 @@
     "turbo": "^2.8.20"
   },
   "peerDependencies": {
-    "@openedx/frontend-base": "^1.0.0-alpha || 0.0.0-dev",
+    "@openedx/frontend-base": "^1.0.0 || 0.0.0-dev",
     "@openedx/paragon": "^23",
     "@tanstack/react-query": "^5",
     "react": "^18",

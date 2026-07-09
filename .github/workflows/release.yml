@@ -2,7 +2,8 @@ name: Release CI
 on:
   push:
     branches:
-      - frontend-base
+      - main
+      - release
 
 permissions:
   contents: read # for checkout
