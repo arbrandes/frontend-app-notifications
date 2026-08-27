@@ -3,7 +3,9 @@ on:
   push:
     branches:
       - main
-      - release
+      - stable
+      - '[0-9]+.x'
+      - '[0-9]+.[0-9]+.x'
 
 permissions:
   contents: read # for checkout
@@ -18,13 +20,13 @@ jobs:
       id-token: write # to enable use of OIDC for trusted publishing and npm provenance
     steps:
     - name: Checkout
-      uses: actions/checkout@v6
+      uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
       with:
         fetch-depth: 0
     - name: Setup Nodejs Env
       run: echo "NODE_VER=`cat .nvmrc`" >> $GITHUB_ENV
     - name: Setup Node.js
-      uses: actions/setup-node@v6
+      uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
       with:
         node-version: ${{ env.NODE_VER }}
     - name: Install dependencies
